@@ -1,0 +1,38 @@
+#include<stdio.h>
+
+////////////////////////////////////////////////////////////////////////////////////
+//
+//    Function Name :   Display
+//    Input :           Integer
+//    Output :          *
+//    Discription:      Display * on the Screen in reverse order
+//    Author :          Kajal Mahadev Jadhav
+//    Date :            23/04/2023
+//
+////////////////////////////////////////////////////////////////////////////////////
+
+void Display(int iNo)
+{
+    while(iNo > 0)
+    {
+        printf("*");
+        iNo--;
+    }
+    printf("\n");
+}
+
+////////////////////////////////////////////////////////////////////////////////////
+//      Entry Point Function
+////////////////////////////////////////////////////////////////////////////////////
+
+int main()
+{
+    int iValue = 0;
+
+    printf("Enter number: ");
+    scanf("%d", &iValue);
+
+    Display(iValue);
+
+    return 0;
+}
