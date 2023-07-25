@@ -1,0 +1,18 @@
+#include "Program8Header.h"
+
+///////////////////////////////////////////////////////////////////////////////////
+//      Entry Point Function
+////////////////////////////////////////////////////////////////////////////////////
+
+int main()
+{ 
+    float fValue = 0.0;
+    bool bRet = 0;
+
+    printf("Please Enter your percentage :\n");
+    scanf("%f", &fValue);
+    
+    DisplayClass(fValue);
+
+    return 0;
+}
